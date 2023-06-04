@@ -1,0 +1,592 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header */
+
+.header-container {
+    height: 29px;
+    background-color: #64BBC2;
+    padding-right: 20px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 1px;
+    padding-top: 8px;
+}
+
+.header-container .form-select {
+    width: 36px;
+    height: 18px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+
+/* Navbar */
+
+.navbar {
+    height: 75px;
+    background-color: #124759 !important;
+    padding-left: 23px;
+    padding-right: 62px;
+}
+
+.navbar .navbar-brand {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.navbar .nav-item {
+    margin-left: 19px;
+}
+
+.navbar .nav-item a {
+    color: #fff !important;
+}
+
+.navbar .borderNavItem {
+    border: 1px solid rgba(256, 256, 256, 0.6);
+    border-radius: 500px;
+}
+
+/* Carousel */
+#carouselCaptions {
+    font-family: 'Acumin Pro';
+}
+
+.carousel-caption {
+    left: 65px;
+    bottom: 135px;
+    text-align: left;
+    width: 590px;
+}
+
+.carousel-caption-title {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 68px;
+}
+
+.carousel-caption-body {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.carousel-caption-body span {
+    padding-right: 11px;
+    margin-left: -35px;
+}
+
+.carousel-caption .carousel-caption-footer {
+    margin-top: 27px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 100px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.carousel-indicators-content {
+    margin-top: 80px !important;
+    padding-left: 82px;
+    padding-right: 115px;
+    position: relative;
+}
+
+.carousel-indicators-content {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    font-style: normal;
+    color: #124759;
+}
+
+.carousel-indicators-content .carousel-subIndicator1 {
+    width: 198px;
+    cursor: pointer;
+}
+
+.carousel-indicators-content .carousel-subIndicator2 {
+    width: 150px;
+    cursor: pointer;
+}
+
+.carousel-indicators-content .carousel-subIndicator3 {
+    width: 205px;
+    cursor: pointer;
+}
+
+.carousel-indicators-content .carousel-subIndicator4 {
+    width: 191px;
+    cursor: pointer;
+}
+
+.carousel-indicators-content .carousel-subIndicator5 {
+    width: 153px;
+    cursor: pointer;
+}
+
+.carousel-indicators-content .progress {
+    height: 1px;
+    margin-top: 16px;
+    background-color: #c4c4c4;
+}
+
+/* About the app */
+
+.aboutApp-container {
+    background: url(../img/background-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    padding-left: 55px;
+    padding-right: 54px;
+    padding-top: 96px;
+    padding-bottom: 127px;
+    margin-left: 78px;
+    margin-right: 80px;
+    margin-top: 96px;
+    margin-bottom: 138px;
+}
+
+.aboutApp-container img {
+    width: 50%;
+}
+
+.aboutApp-container .aboutApp-title {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #124759;
+}
+
+.aboutApp-container .aboutApp-subTitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #757575;
+    margin-top: 17px;
+    margin-bottom: 96px;
+}
+
+.aboutApp-container .aboutApp-body .aboutApp-body-right-container {
+    padding-left: 98px;
+    padding-right: 36px;
+}
+
+.aboutApp-container .aboutApp-body-title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #124759;
+}
+
+.aboutApp-container .aboutApp-body-content {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #124759;
+}
+
+.aboutApp-container .aboutApp-body-footer {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #124759;
+    width: 145px;
+    border-bottom: 1px solid #124759;
+}
+
+/* How to work */
+
+.works-container {
+    background-color: #124759;
+}
+
+.works-container img {
+    width: 80%;
+}
+
+/* How to use */
+
+.use-container {
+    padding-left: 235px;
+    padding-right: 216px;
+    padding-bottom: 145px;
+}
+
+.use-container .use-container-title {
+    margin-top: 68px;
+    color: #124759;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.2px;
+}
+
+.use-container .use-container-content {
+    font-family: 'Acumin Pro';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 45px;
+}
+
+.use-container .video-play-btn-content {
+    position: absolute;
+    bottom: -120px;
+    left: -120px;
+    width: 240px;
+    height: 240px;
+    border-radius: 300px;
+    background-color: #fff;
+}
+
+.use-container .video-play-btn-content .video-play-btn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+
+/* About us */
+
+.aboutUs-container {
+    background-color: #124759;
+    padding-top: 128px;
+    padding-left: 86px;
+    padding-right: 80px;
+    padding-bottom: 125px;
+}
+
+.aboutUs-container .aboutUs-content {
+    background: url(../img/background-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 99px;
+    padding-left: 59px;
+    padding-bottom: 103px;
+    padding-right: 83px;
+    border-radius: 40px;
+}
+
+.aboutUs-container .aboutUs-right-container {
+    padding-left: 93px;
+}
+
+.aboutUs-container .aboutUs-right-container .aboutUs-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 55px;
+    font-family: 'Inter';
+    color: #124759;
+}
+
+.aboutUs-container .aboutUs-right-container .aboutUs-body {
+    font-family: 'Acumin Pro';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #124759;
+}
+
+.aboutUs-container .aboutUs-right-container .aboutUs-footer {
+    width: 140px;
+    font-family: 'Acumin Pro';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #124759;
+    border-bottom: 1px solid #124759;
+}
+
+/* Reviews */
+
+.reviews-container {
+    padding-left: 84px;
+    padding-right: 80px;
+    padding-top: 100px;
+    background: linear-gradient(180deg, #D0EBEC 0%, rgba(217, 217, 217, 0) 100%);
+}
+
+.reviews-container .reviews-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #124759;
+}
+
+.reviews-container .reviews-subTitle {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 78px;
+}
+
+.reviews-container .view-content {
+    padding-top: 210px;
+    padding-right: 77px;
+    padding-left: 90px;
+    padding-bottom: 210px;
+    background-color: #124759;
+    border-radius: 40px;
+}
+
+.reviews-container .view-content .view-content-more {
+    position: absolute;
+    top: 51px;
+    right: 89px;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.reviews-container .view-content .view-content-title {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 68px;
+    color: #FFFFFF;
+}
+
+.reviews-container .view-content .reviews-user-card {
+    position: absolute;
+    left: 92px;
+    bottom: 90px;
+    height: 90px;
+}
+
+.reviews-container .view-content .reviews-user-card .reviews-user-card-title {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.reviews-container .view-content .reviews-user-card .reviews-user-card-content {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.reviews-container .view-content .reviews-user-card-slide {
+    position: absolute;
+    right: 83px;
+    bottom: 90px;
+    color: #ffffff;
+    width: 60px;
+    font-size: 16px;
+}
+
+.tryfree-container {
+    margin-top: 164px;
+    background: linear-gradient(90deg, #124759 -9.04%, #64BBC2 131.5%);
+    border-radius: 40px;
+}
+
+.tryfree-container .tryfree-left-container {
+    padding-left: 130px;
+    padding-top: 155px;
+    padding-bottom: 137px;
+}
+
+.tryfree-container .tryfree-left-container .tryfree-left-container-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    align-items: center;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    background: linear-gradient(90deg, #FFFFFF -2.16%, #FFFFFF 39.26%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.tryfree-container .tryfree-left-container .tryfree-left-container-content {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.tryfree-container .tryfree-left-container .tryfree-left-container-btn {
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    filter: drop-shadow(0px 4px 28px rgba(0, 0, 0, 0.13));
+    border-radius: 500px;
+    background-color: #64BBC2;
+    border: none;
+    margin-top: 46px;
+}
+
+.tryfree-container .tryfree-img {
+    height: 637px;
+    margin-top: -87px;
+}
+
+.partner-container {
+    padding-left: 188px;
+    padding-right: 188px;
+    margin-top: 189px;
+}
+
+.partner-container .partner-container-title {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #124759;
+}
+
+.partner-container .partner-container-title span {
+    color: #64BBC2;
+}
+
+.partner-container .partner-container-content {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #124759;
+    padding-left: 112px;
+    padding-right: 112px;
+}
+
+.partner-container .partner-container-btn {
+    border: 1px solid #124759;
+    border-radius: 500px;
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #124759;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    margin-top: 70px;
+    margin-bottom: 137px;
+}
+
+.contact-container {
+    background: #D0EAEC;
+    border-radius: 40px;
+    padding-top: 102px;
+    padding-bottom: 115px;
+}
+
+.contact-container .contact-container-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #124759;
+}
+
+.contact-container .contact-container-content {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 105px;
+}
+
+.contact-container .contact-container-more {
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #124759;
+}
+
+.contact-container .row {
+    padding-left: 162px;
+}
+
+.contact-container .contact-container-subTitle {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #124759;
+}
+
+.contact-container .contact-container-subContent {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #595959;
+}
+
+.contact-container .contact-container-subFooter {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #124759;
+}
