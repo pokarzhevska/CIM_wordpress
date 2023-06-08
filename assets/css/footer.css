@@ -1,0 +1,37 @@
+.footer {
+    padding-left: 77px;
+    background: #124759;
+    border-radius: 40px 40px 0px 0px;
+    padding-top: 47px;
+    padding-bottom: 26px;
+    color: #fff;
+}
+
+.footer .footer-title {
+    font-family: 'Neuropol X';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.footer .footer-content {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding-top: 37px;
+        padding-left: 42px;
+        padding-bottom: 25px;
+    }
+
+    .footer .footer-title {
+        margin-bottom: 50px;
+    }
+
+    .footer .footer-content {
+        margin-bottom: 63px;
+    }
+}

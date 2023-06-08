@@ -1,0 +1,290 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Acumin Pro';
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
+}
+
+.d-justify-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-main-color {
+    color: #124759;
+}
+
+.bg-main-color {
+    background-color: #124759;
+}
+
+/* Price */
+
+.price-container {
+    margin: 0px;
+    margin-bottom: 197px;
+    padding-top: 128px;
+    padding-bottom: 220px;
+    padding-left: 101px;
+    padding-right: 100px;
+    background-color: #D0EBEC;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.price-container p {
+    margin: 0px;
+}
+
+.price-container .price-container-title {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #124759;
+}
+
+.price-container .price-container-subTitle {
+    font-family: 'Acumin Pro';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    color: #757575;
+    margin-top: 20px;
+}
+
+.price-container .price-user-divide-content {
+    margin-top: 58px;
+    margin-bottom: 92px;
+    font-family: 'Acumin Pro';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #124759;
+}
+
+.price-container .price-user-divide-content .form-check {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.price-container .price-user-divide-content .form-check input {
+    width: 74px;
+    height: 33px;
+    background-color: #124759;
+}
+
+.price-container .price-main-container>div {
+    height: 910px;
+    padding: 0px;
+    font-family: 'Acumin Pro';
+}
+
+.price-container .price-main-container .price-main-left-content,
+.price-container .price-main-container .price-main-right-content {
+    height: 805px;
+    width: 390px;
+    background: #FFFFFF;
+    border: 1px solid #EFF0F7;
+    box-shadow: 0px 2px 12px rgba(20, 20, 43, 0.08);
+    border-radius: 24px;
+    padding-top: 54px;
+    padding-bottom: 55px;
+    padding-left: 43px;
+    padding-right: 43px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.price-container .price-main-container .price-main-center-content {
+    height: 910px;
+    width: 390px !important;
+    width: calc(100% - 30px);
+    background: #124759;
+    border: 1px solid #EFF0F7;
+    box-shadow: 0px 2px 12px rgba(20, 20, 43, 0.08);
+    border-radius: 24px;
+    padding-top: 54px;
+    padding-bottom: 55px;
+    padding-left: 43px;
+    padding-right: 43px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.price-container button {
+    width: 308px;
+    height: 72px;
+    border-radius: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.price-container .price-main-container .priceContentSubTitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.price-container .price-main-container .priceContentTitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.price-container .price-main-container .priceContentDes {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 14px;
+}
+
+.price-container .price-main-container .priceContentprice {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 66px;
+    margin-top: 30px;
+}
+
+.price-container .price-main-container .priceContentprice .monthly {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.price-container .price-main-container .priceContentMainTitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 40px;
+    margin-bottom: 11px;
+}
+
+.price-container .price-main-container .priceContentMainDes {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.price-container .price-main-container .priceContentMainDes .fa {
+    font-size: 26px;
+}
+
+.price-container .price-main-container .priceContentMainFooter {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1400px) {
+    .price-container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .price-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .price-container .price-main-container .price-main-left-content,
+    .price-container .price-main-container .price-main-center-content,
+    .price-container .price-main-container .price-main-right-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+
+    .price-container .price-main-container .price-main-left-content,
+    .price-container .price-main-container .price-main-center-content,
+    .price-container .price-main-container .price-main-right-content {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .price-container .price-main-container .price-main-left-content,
+    .price-container .price-main-container .price-main-center-content,
+    .price-container .price-main-container .price-main-right-content {
+        width: 300px !important;
+    }
+
+    .price-container button {
+        width: 250px;
+    }
+
+    .price-container .price-main-container .price-main-right-content button {
+        margin-top: -15px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .price-container {
+        margin-bottom: 0px;
+        padding-bottom: 118px;
+        border-radius: 0px;
+    }
+
+    .price-container .price-user-divide-content {
+        margin-bottom: 65px;
+    }
+
+    .price-container .price-main-container .price-main-left-content,
+    .price-container .price-main-container .price-main-center-content,
+    .price-container .price-main-container .price-main-right-content {
+        width: 390px !important;
+        padding-left: 43px;
+        padding-right: 43px;
+    }
+
+    .price-container button {
+        width: 308px;
+    }
+
+    .price-container .price-main-container .price-main-right-content button {
+        margin-top: 0px;
+    }
+
+    .price-main-left-container,
+    .price-main-right-container {
+        height: 845px !important;
+    }
+
+    .help-container {
+        background-color: #D0EBEC;
+        padding-bottom: 60px;
+        height: 120px;
+        margin-bottom: -45px;
+    }
+}

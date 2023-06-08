@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIM</title>
+    <link rel="stylesheet" href="./assets/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/fontStyle.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/help.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Header -->
+
+    <div class="w-100 text-end text-light d-flex justify-content-end header-container">
+        <p>Partner login</p>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <p>Login</p>
+        <select class="form-select" style="color: #fff">
+            <option>EN</option>
+            <option>Du</option>
+            <option>Sp</option>
+            <option>Fr</option>
+            <option>Ge</option>
+        </select>
+    </div>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0)">CIM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <div class="me-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item navbar-nav-header justify-content-between">
+                        <span class="fa fa-close" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"></span>
+                        <select class="form-select" style="color: #fff">
+                            <option>EN</option>
+                            <option>Du</option>
+                            <option>Sp</option>
+                            <option>Fr</option>
+                            <option>Ge</option>
+                        </select>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./aboutapp.html">The app</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./price.html">Prices</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Partner up</a>
+                    </li>
+                    <li class="nav-item partner-nav d-none">
+                        <a class="nav-link" href="#">Partner login</a>
+                    </li>
+                    <li class="nav-item d-none">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item borderNavItem">
+                        <a class="nav-link" href="#">Try it for free</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact -->
+
+    <div class="contact-container row">
+        <div class="col-md-6 col-sm-12 contact-left-container">
+            <p class="contact-title">Get in touch with us</p>
+            <p class="contact-subTitle">We'd love to hear from you. Chat to our friendly team.</p>
+            <input type="text" class="form-control contact-fullName" placeholder="Full Name">
+            <input type="text" class="form-control contact-email" placeholder="Email">
+            <input type="text" class="form-control contact-msg" placeholder="Message">
+            <button class="contact-btn" onclick="contactSubmit()">Submit</button>
+        </div>
+        <div class="col-md-6 col-sm-12 contact-right-container d-justify-center">
+            <img src="./assets/img/map.png" class="contact-map">
+        </div>
+    </div>
+
+    <!-- Try for free -->
+
+    <div class="tryfree-container row">
+        <div class="col-md-6 col-sm-12 tryfree-left-container text-start">
+            <p class="tryfree-left-container-title">Try it for free</p>
+            <p class="tryfree-left-container-content">Schedule a line demo, Experience the new speed of work.</p>
+            <p class="tryfree-left-container-content">Discover in a personal demonstration how your invoices are
+                recognized and processed.</p>
+            <button class="tryfree-left-container-btn">Let's start</button>
+        </div>
+        <div class="col-md-6 col-sm-12 text-center position-relative">
+            <img src="./assets/img/model.png" class="tryfree-img">
+        </div>
+    </div>
+
+    <!-- Contact Modal -->
+
+    <div class="modal fade" id="contactModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header text-start">
+                    <span class="fa fa-close cursor-pointer" data-bs-dismiss="modal"></span>
+                    <p class="contactModalLogo text-center d-flex">CIM</p>
+                    <h4 class="modal-title">Ask your question</h4>
+                </div>
+
+                <div class="modal-body">
+                    <input type="text" class="w-100" placeholder="Company name">
+                    <input type="text" class="w-100" placeholder="Your name*">
+                    <input type="text" class="w-100" placeholder="E-mail address*">
+                    <textarea class="w-100" rows="5" placeholder="Your question or comment*"></textarea>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn w-100" data-bs-dismiss="modal">Send</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Help -->
+    <div class="w-100 help-container">
+        <p class="help cursor-pointer" data-bs-toggle="modal" data-bs-target="#contactModal">?</p>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="row w-100">
+            <p class="col-md-7 footer-title">CIM</p>
+            <div class="col-md-2 footer-content">
+                <p>Home</p>
+                <p>The App</p>
+                <p>Prices</p>
+                <p>Reviews</p>
+                <p>Contact</p>
+                <p>About us</p>
+                <p>Partner up</p>
+            </div>
+            <div class="col-md-3 footer-content">
+                <p>Linkedin</p>
+                <p>Facebook</p>
+                <p>Instagram</p>
+            </div>
+        </div>
+        <p>Cim-online 2023. All rights reserved.</p>
+    </div>
+
+    <script>
+        function contactSubmit() {
+            window.location = 'thanks.html'
+        }
+    </script>
+
+    <script src="./assets/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

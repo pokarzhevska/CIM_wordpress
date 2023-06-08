@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIM</title>
+    <link rel="stylesheet" href="./assets/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/fontStyle.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/help.css">
+    <link rel="stylesheet" href="./assets/css/price.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Header -->
+
+    <div class="w-100 text-end text-light d-flex justify-content-end header-container">
+        <p>Partner login</p>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <p>Login</p>
+        <select class="form-select" style="color: #fff">
+            <option>EN</option>
+            <option>Du</option>
+            <option>Sp</option>
+            <option>Fr</option>
+            <option>Ge</option>
+        </select>
+    </div>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0)">CIM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <div class="me-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item navbar-nav-header justify-content-between">
+                        <span class="fa fa-close" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"></span>
+                        <select class="form-select" style="color: #fff">
+                            <option>EN</option>
+                            <option>Du</option>
+                            <option>Sp</option>
+                            <option>Fr</option>
+                            <option>Ge</option>
+                        </select>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./aboutapp.html">The app</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Prices</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./review.html">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Partner up</a>
+                    </li>
+                    <li class="nav-item partner-nav d-none">
+                        <a class="nav-link" href="#">Partner login</a>
+                    </li>
+                    <li class="nav-item d-none">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item borderNavItem">
+                        <a class="nav-link" href="#">Try it for free</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Price -->
+
+    <div class="price-container">
+        <p class="price-container-title">Simple, transparent pricing</p>
+        <p class="price-container-subTitle">Choose the right pricing for you and get started with your project</p>
+        <div class="price-user-divide-content d-justify-center">
+            <p>Customer</p>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
+            </div>
+            <p>Partner</p>
+        </div>
+        <div class="price-main-container row">
+            <div class="col-lg-4 col-md-12 d-justify-center price-main-left-container">
+                <div class="price-main-left-content">
+                    <p class="priceContentSubTitle" style="color: #757575">For small companies</p>
+                    <p class="priceContentTitle text-main-color">Basic</p>
+                    <p class="priceContentDes" style="color: #757575">1 user Configuration invoices<br>1 user Validate invoices</p>
+                    <p class="priceContentprice text-main-color"><span class="fa fa-eur"></span>40&nbsp;&nbsp;<span class="monthly" style="color: #757575">/monthly</span></p>
+                    <p class="priceContentMainTitle text-main-color">What is included</p>
+                    <p class="priceContentMainDes text-main-color"><span class="fa fa-check-circle"></span> Configure invoices on header level</p>
+                    <p class="priceContentMainDes text-main-color"><span class="fa fa-check-circle"></span> Validate all incoming invoices (output: CSV, XML, UBL2.1, Custom XML)</p>
+                    <p class="priceContentMainDes text-main-color"><span class="fa fa-check-circle"></span> Api's to external cloud storage solutions (optional)</p>
+                    <p class="priceContentMainDes text-main-color"><span class="fa fa-check-circle"></span> Normal support</p>
+                    <p class="priceContentMainFooter text-main-color">Price per invoice to 250: <span class="fa fa-eur"></span>0,45</p>
+                    <button class="bg-main-color text-white" style="margin-top: 90px">Let's start</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 d-justify-center price-main-center-container">
+                <div class="price-main-center-content bg-main-color">
+                    <p class="priceContentSubTitle" style="color: #D9DBE9">For medium size companies</p>
+                    <p class="priceContentTitle text-white">Pro</p>
+                    <p class="priceContentDes" style="color: #D9DBE9">1 user Configuration invoices<br>1 user Validate invoices<br>(output: CSV, XML, UBL2.1, Custom XML)<br>Approval users (optional)</p>
+                    <p class="priceContentprice text-white"><span class="fa fa-eur"></span>40&nbsp;&nbsp;<span class="monthly" style="color: #D9DBE9">/monthly</span></p>
+                    <p class="priceContentMainTitle text-white">What is included</p>
+                    <p class="priceContentMainDes" style="color: #D9DBE9"><span class="fa fa-check-circle text-white"></span> Configure invoices on header level</p>
+                    <p class="priceContentMainDes" style="color: #D9DBE9"><span class="fa fa-check-circle text-white"></span> Configure invoices on header column and lines</p>
+                    <p class="priceContentMainDes" style="color: #D9DBE9"><span class="fa fa-check-circle text-white"></span> Validate all incoming invoices</p>
+                    <p class="priceContentMainDes" style="color: #D9DBE9"><span class="fa fa-check-circle text-white"></span> Approval users optional</p>
+                    <p class="priceContentMainDes" style="color: #D9DBE9"><span class="fa fa-check-circle text-white"></span> Api's to external cloud storage solutions (optional)</p>
+                    <p class="priceContentMainDes" style="color: #D9DBE9"><span class="fa fa-check-circle text-white"></span> Normal support</p>
+                    <p class="priceContentMainFooter text-white">Price per invoice to 250: <span class="fa fa-eur"></span>Price per invoice to 250: <span class="fa fa-eur"></span>0,45<br>Price per invoice from 250-750 invoices per month: <span class="fa fa-eur"></span>0,38<br>Price per invoice from 750-1,250 invoices per month: <span class="fa fa-eur"></span>0,29</p>
+                    <button class="text-main-color">Let's start</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 d-justify-center price-main-right-container">
+                <div class="price-main-right-content">
+                    <p class="priceContentSubTitle" style="color: #757575">For big companies</p>
+                    <p class="priceContentTitle text-main-color">Enterprise</p>
+                    <p class="priceContentDes" style="color: #757575">2 user Configuration invoices<br>4 user Validate invoices<br>(output: CSV, XML, UBL2.1, Custom XML)<br>Approval users (optional)</p>
+                    <p class="priceContentprice text-main-color"><span class="fa fa-eur"></span>80&nbsp;&nbsp;<span class="monthly" style="color: #757575">/monthly</span></p>
+                    <p class="priceContentMainTitle text-main-color">What is included</p>
+                    <p class="priceContentMainDes text-main-color"><span class="fa fa-check-circle"></span> Configure invoices on header level</p>
+                    <p class="priceContentMainDes text-main-color"><span class="fa fa-check-circle"></span> Configure invoices on header column and lines</p>
+                    <p class="priceContentMainDes text-main-color"><span class="fa fa-check-circle"></span> Validate all incoming invoices</p>
+                    <p class="priceContentMainDes text-main-color"><span class="fa fa-check-circle"></span> Api's to external cloud storage solutions (optional)</p>
+                    <p class="priceContentMainDes text-main-color"><span class="fa fa-check-circle"></span> Normal support</p>
+                    <p class="priceContentMainFooter text-main-color">Minimum charged invoices per month: 1500<br>Price per invoice: <span class="fa fa-eur"></span>0,30</p>
+                    <button class="bg-main-color text-white">Let's start</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Help -->
+    <div class="w-100 help-container">
+        <p class="help cursor-pointer" data-bs-toggle="modal" data-bs-target="#contactModal">?</p>
+    </div>
+
+    <!-- Contact Modal -->
+
+    <div class="modal" id="contactModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header text-start">
+                    <span class="fa fa-close cursor-pointer" data-bs-dismiss="modal"></span>
+                    <p class="contactModalLogo text-center d-flex">CIM</p>
+                    <h4 class="modal-title">Ask your question</h4>
+                </div>
+
+                <div class="modal-body">
+                    <input type="text" class="w-100" placeholder="Company name">
+                    <input type="text" class="w-100" placeholder="Your name*">
+                    <input type="text" class="w-100" placeholder="E-mail address*">
+                    <textarea class="w-100" rows="5" placeholder="Your question or comment*"></textarea>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn w-100" data-bs-dismiss="modal">Send</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="row w-100">
+            <p class="col-md-7 footer-title">CIM</p>
+            <div class="col-md-2 footer-content">
+                <p>Home</p>
+                <p>The App</p>
+                <p>Prices</p>
+                <p>Reviews</p>
+                <p>Contact</p>
+                <p>About us</p>
+                <p>Partner up</p>
+            </div>
+            <div class="col-md-3 footer-content">
+                <p>Linkedin</p>
+                <p>Facebook</p>
+                <p>Instagram</p>
+            </div>
+        </div>
+        <p>Cim-online 2023. All rights reserved.</p>
+    </div>
+
+
+    <script src="./assets/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
