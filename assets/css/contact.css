@@ -223,10 +223,6 @@ p {
     border: none;
 }
 
-.contact-container .contact-right-container .contact-map {
-    width: 100%;
-}
-
 @media screen and (max-width: 1300px) {
     .contact-container .contact-btn {
         width: 100%;
@@ -337,111 +333,6 @@ p {
     .footer .footer-content {
         margin-bottom: 63px;
     }
-}
-
-/* Contact Modal */
-
-/* #contactModal .modal-dialog {
-    right: -320px;
-    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
-    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
-    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
-    transition: opacity 0.3s linear, right 0.3s ease-out;
-}
-
-#contactModal.show .modal-dialog {
-    right: 0;
-} */
-
-#contactModal .modal-content {
-    background-color: transparent;
-    border: none;
-}
-
-#contactModal .modal-header {
-    background: #236379;
-    border-radius: 20px 20px 0px 0px;
-    height: 82px;
-    color: #fff;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    border: none;
-}
-
-#contactModal .modal-header span {
-    color: #B5E2E2;
-    font-size: 20px;
-    margin-right: 25px;
-}
-
-#contactModal .modal-header .contactModalLogo {
-    margin-top: 21px;
-    font-family: 'Neuropol X';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: #64BBC2;
-    justify-content: center;
-    align-items: center;
-    margin-right: 11px;
-}
-
-#contactModal .modal-header .modal-title {
-    font-size: 16px;
-}
-
-#contactModal .modal-body {
-    background-color: #124759;
-    padding-top: 24px;
-    padding-left: 23px;
-    padding-right: 23px;
-    padding-bottom: 0px;
-}
-
-#contactModal .modal-body input {
-    height: 42px;
-    border-radius: 10px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 14px;
-    align-items: center;
-    color: rgba(146, 146, 146, 0.95);
-    margin-bottom: 16px;
-    border: none;
-    padding-left: 13px;
-}
-
-#contactModal .modal-body textarea {
-    border-radius: 10px;
-    padding-left: 13px;
-}
-
-#contactModal .modal-footer {
-    border-radius: 0px 0px 20px 20px;
-    background-color: #124759;
-    border: none;
-    padding-left: 24px;
-    padding-right: 24px;
-}
-
-#contactModal .modal-footer .btn {
-    background-color: #64BBC2;
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    border-radius: 25px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 14px;
-    align-items: center;
-    color: rgba(255, 255, 255, 0.95);
 }
 
 /* Thanks */

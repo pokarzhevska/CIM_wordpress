@@ -261,7 +261,6 @@ p {
 
 .forgot-container input {
     margin-top: 63px;
-    margin-bottom: 3px;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #124759;
@@ -290,6 +289,45 @@ p {
     letter-spacing: -0.015em;
     text-decoration-line: underline;
     color: #124759;
+}
+
+@media screen and (max-width: 768px) {
+    .forgot-container {
+        margin-top: 32px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 99px;
+        padding-top: 78px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 95px;
+    }
+
+    .forgot-container .forgot-title {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .forgot-container .forgot-subTitle {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 23px;
+    }
+
+    .forgot-container .forgot-dark-btn {
+        margin-top: 63px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .forgot-container input {
+        width: 100%;
+    }
+
+    .forgot-container .forgot-dark-btn {
+        width: 100%;
+    }
 }
 
 /* Help */

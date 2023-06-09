@@ -23,209 +23,6 @@ p {
     margin: 0px;
 }
 
-/* Header */
-
-.header-container {
-    height: 29px;
-    background-color: #64BBC2;
-    padding-right: 20px;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 1px;
-    padding-top: 8px;
-}
-
-.header-container .form-select {
-    width: 36px;
-    height: 18px;
-    background-color: transparent;
-    border: none;
-    color: #fff;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 1px;
-    margin-left: 22px;
-    padding: 0px;
-    background-image: url(../img/headerSelect.svg);
-    background-size: cover;
-}
-
-.header-container .form-select:hover,
-.header-container .form-select:active,
-.header-container .form-select::after,
-.header-container .form-select:focus,
-.header-container .form-select:focus-visible {
-    box-shadow: none;
-}
-
-.header-container .form-select option {
-    color: #124759;
-}
-
-/* Navbar */
-
-.navbar {
-    height: 75px;
-    background-color: #124759 !important;
-    padding-left: 23px;
-    padding-right: 62px;
-}
-
-.navbar .navbar-brand {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-.navbar .nav-item {
-    margin-left: 19px;
-}
-
-.navbar .nav-item a {
-    color: #fff !important;
-}
-
-.navbar .navbar-nav .navbar-nav-header {
-    background-color: #64BBC2;
-    height: 30px;
-    padding-left: 10px;
-    display: none;
-}
-
-.navbar .navbar-nav .navbar-nav-header .fa {
-    font-size: 11px;
-    color: #fff;
-    padding-top: 10px;
-}
-
-.navbar .navbar-nav .navbar-nav-header .form-select {
-    width: 36px;
-    height: 18px;
-    background-color: transparent;
-    border: none;
-    color: #fff;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 1px;
-    margin-left: 22px;
-    padding: 0px;
-    background-image: url(../img/headerSelect.svg);
-    background-size: cover;
-    padding-top: 3px;
-    margin-top: 6px;
-}
-
-.navbar .navbar-nav .navbar-nav-header .form-select:hover,
-.navbar .navbar-nav .navbar-nav-header .form-select:active,
-.navbar .navbar-nav .navbar-nav-header .form-select::after,
-.navbar .navbar-nav .navbar-nav-header .form-select:focus,
-.navbar .navbar-nav .navbar-nav-header .form-select:focus-visible {
-    box-shadow: none;
-}
-
-.navbar .navbar-nav .navbar-nav-header .form-select option {
-    color: #124759;
-}
-
-.navbar .borderNavItem {
-    border: 1px solid rgba(256, 256, 256, 0.6);
-    border-radius: 500px;
-}
-
-.navbar .navbar-toggler,
-.navbar .navbar-toggler:active,
-.navbar .navbar-toggler::before,
-.navbar .navbar-toggler:focus {
-    margin-top: -5px;
-    border: none;
-    box-shadow: none;
-}
-
-@media screen and (max-width: 1000px) {
-    .navbar .nav-item {
-        margin-left: 10px;
-    }
-}
-
-@media screen and (max-width: 870px) {
-    .navbar .nav-item {
-        margin-left: 5px;
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .navbar {
-        height: 44px;
-    }
-
-    .navbar .nav-item {
-        margin-left: 5px;
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 710px) {
-    .navbar {
-        height: 44px;
-        padding-right: 30px;
-        padding-left: 9px;
-    }
-
-    .navbar .navbar-brand {
-        padding-top: 0px;
-    }
-
-    .navbar .nav-item {
-        margin-left: 0px;
-        font-size: 10px;
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .header-container {
-        display: none !important;
-    }
-
-    .navbar .navbar-nav {
-        position: absolute;
-        background-color: #124759;
-        right: 0px;
-        width: 162px;
-        z-index: 3;
-    }
-
-    .navbar .nav-item {
-        padding-left: 26px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 140%;
-        letter-spacing: 1px;
-        display: inherit !important;
-    }
-
-    .navbar .partner-nav {
-        margin-top: 45px;
-    }
-
-    .navbar .borderNavItem {
-        margin-left: 19px;
-        margin-right: 19px;
-        margin-bottom: 21px;
-        margin-top: 36px;
-        padding-left: 16px;
-        padding-top: 3px;
-    }
-
-    .navbar .navbar-nav-header {
-        margin-bottom: 24px;
-    }
-}
-
 /* Login */
 
 .login-container {
@@ -246,6 +43,15 @@ p {
     line-height: 58px;
     letter-spacing: 0.2px;
     color: #124759;
+}
+
+.login-container .login-errMsg {
+    margin-bottom: 5px;
+    margin-top: 52px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FF2929;
 }
 
 .login-container input {
@@ -288,6 +94,16 @@ p {
     margin-right: auto;
 }
 
+.login-container button {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.login-container button img {
+    height: 17px;
+}
+
 .login-container .login-dark-btn {
     margin-bottom: 36px;
     background-color: #124759;
@@ -308,171 +124,41 @@ p {
     border-radius: 30px;
 }
 
-/* Help */
-
-.help-container {
-    height: 60px;
-    margin-bottom: 15px;
-}
-
-.help-container .help {
-    width: 60px;
-    height: 60px;
-    background-color: #124759;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 36px;
-    color: #9BF8FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
-    float: right;
-    margin-right: 30px;
-}
-
-/* Footer */
-
-.footer {
-    padding-left: 77px;
-    background: #124759;
-    border-radius: 40px 40px 0px 0px;
-    padding-top: 47px;
-    padding-bottom: 26px;
-    color: #fff;
-}
-
-.footer .footer-title {
-    font-family: 'Neuropol X';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-}
-
-.footer .footer-content {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-}
-
 @media screen and (max-width: 768px) {
-    .footer {
-        padding-top: 37px;
-        padding-left: 42px;
-        padding-bottom: 25px;
+    .login-container {
+        padding-left: 36px;
+        padding-right: 35px;
+        padding-top: 92px;
+        padding-bottom: 102px;
+        margin-top: 32px;
+        margin-bottom: 89px;
+        margin-left: 11px;
+        margin-right: 9px;
     }
 
-    .footer .footer-title {
-        margin-bottom: 50px;
+    .login-container .login-title {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 8px;
     }
 
-    .footer .footer-content {
-        margin-bottom: 63px;
+    .login-container input {
+        width: 100%;
     }
-}
 
-/* Contact Modal */
+    .login-container button {
+        width: 100% !important;
+    }
 
-/* #contactModal .modal-dialog {
-    right: -320px;
-    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
-    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
-    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
-    transition: opacity 0.3s linear, right 0.3s ease-out;
-}
+    .login-container .login-forgot,
+    .login-container .login-account {
+        width: 100%;
+    }
 
-#contactModal.show .modal-dialog {
-    right: 0;
-} */
-
-#contactModal .modal-content {
-    background-color: transparent;
-    border: none;
-}
-
-#contactModal .modal-header {
-    background: #236379;
-    border-radius: 20px 20px 0px 0px;
-    height: 82px;
-    color: #fff;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    border: none;
-}
-
-#contactModal .modal-header span {
-    color: #B5E2E2;
-    font-size: 20px;
-    margin-right: 25px;
-}
-
-#contactModal .modal-header .contactModalLogo {
-    margin-top: 21px;
-    font-family: 'Neuropol X';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: #64BBC2;
-    justify-content: center;
-    align-items: center;
-    margin-right: 11px;
-}
-
-#contactModal .modal-header .modal-title {
-    font-size: 16px;
-}
-
-#contactModal .modal-body {
-    background-color: #124759;
-    padding-top: 24px;
-    padding-left: 23px;
-    padding-right: 23px;
-    padding-bottom: 0px;
-}
-
-#contactModal .modal-body input {
-    height: 42px;
-    border-radius: 10px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 14px;
-    align-items: center;
-    color: rgba(146, 146, 146, 0.95);
-    margin-bottom: 16px;
-    border: none;
-    padding-left: 13px;
-}
-
-#contactModal .modal-body textarea {
-    border-radius: 10px;
-    padding-left: 13px;
-}
-
-#contactModal .modal-footer {
-    border-radius: 0px 0px 20px 20px;
-    background-color: #124759;
-    border: none;
-    padding-left: 24px;
-    padding-right: 24px;
-}
-
-#contactModal .modal-footer .btn {
-    background-color: #64BBC2;
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    border-radius: 25px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 14px;
-    align-items: center;
-    color: rgba(255, 255, 255, 0.95);
+    .login-container .login-errMsg {
+        position: absolute;
+        margin: 0px;
+        left: 0px;
+        width: 100%;
+    }
 }

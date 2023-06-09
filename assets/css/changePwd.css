@@ -292,6 +292,35 @@ p {
     color: #124759;
 }
 
+@media screen and (max-width: 768px) {
+    .change-container {
+        margin-top: 31px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 87px;
+        padding-top: 71px;
+        padding-left: 31px;
+        padding-right: 31px;
+        padding-bottom: 112px;
+    }
+
+    .change-container .change-title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .change-container .change-subTitle {
+        margin-top: 31px;
+        margin-bottom: 10px;
+    }
+
+    .change-container input,
+    .change-container button {
+        width: 100% !important;
+    }
+}
+
 /* Help */
 
 .help-container {
