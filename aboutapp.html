@@ -99,64 +99,165 @@
         <div class="col-md-6 col-sm-12 text-center aboutapp-slide1-left-container">
             <img src="./assets/img/aboutapp-slide1.png" class="w-100">
         </div>
-        <div class="col-md-6 col-sm-12 aboutapp-slide1-right-container d-justify-center">
-            <div id="carouselExampleCaptions" class="carousel slide vertical w-100" data-bs-ride="false">
+        <div class="col-md-6 col-sm-12 aboutapp-slide1-right-container d-justify-center position-relative">
+            <div id="demo1" class="vertical carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
                 <div class="carousel-indicators">
-                    <div class="d-justify-center">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                        <span class="fa fa-circle" style="font-size: 5px;"></span>1
+                    <div data-bs-target="#demo1" data-bs-slide-to="0" class="d-justify-center active">
+                        <div></div>
+                        <span class="fa fa-circle"></span>
+                        <p>1</p>
                     </div>
-                    <div class="d-justify-center">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                        <span class="fa fa-circle" style="font-size: 5px;"></span>2
+                    <div data-bs-target="#demo1" data-bs-slide-to="1" class="d-justify-center">
+                        <div></div>
+                        <span class="fa fa-circle"></span>
+                        <p>2</p>
                     </div>
-                    <div class="d-justify-center">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                        <span class="fa fa-circle" style="font-size: 5px;"></span>3
+                    <div data-bs-target="#demo1" data-bs-slide-to="2" class="d-justify-center">
+                        <div></div>
+                        <span class="fa fa-circle"></span>
+                        <p>3</p>
                     </div>
-                    <div class="d-justify-center">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                        aria-label="Slide 4"></button>
-                        <span class="fa fa-circle" style="font-size: 5px;"></span>4
+                    <div data-bs-target="#demo1" data-bs-slide-to="3" class="d-justify-center">
+                        <div></div>
+                        <span class="fa fa-circle"></span>
+                        <p>4</p>
                     </div>
                 </div>
+
+                <!-- The slideshow/carousel -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Deep learning</h5>
-                            <p>Deep learning is a form of machine learning based on neural networks. These networks consist of layers of neurons that process information and learn to recognize patterns. When these networks are trained with large amounts of data, they can discover complex patterns and use them to make accurate predictions and perform tasks. In the case of CIM ONLINE, deep learning is used to improve the accuracy and speed of the platform. By using deep learning, the platform can learn from the data it processes and continuously improve and optimize itself. This means that the platform becomes better at recognizing different types of invoice and order files and performing automatic bookings.</p>
-                        </div>
+                        <p class="carousel-item-title">Deep learning</p>
+                        <p class="carousel-item-content">
+                            Deep learning is a form of machine learning based on neural networks. These networks consist
+                            of layers of neurons that process information and learn to recognize patterns. When these
+                            networks are trained with large amounts of data, they can discover complex patterns and use
+                            them to make accurate predictions and perform tasks. In the case of CIM ONLINE, deep
+                            learning is used to improve the accuracy and speed of the platform. By using deep learning,
+                            the platform can learn from the data it processes and continuously improve and optimize
+                            itself. This means that the platform becomes better at recognizing different types of
+                            invoice and order files and performing automatic bookings.
+                        </p>
                     </div>
                     <div class="carousel-item">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Invoice automation</h5>
-                            <p>The story begins when a company looking to streamline its invoice processing and administration signs up for CIM ONLINE. They are looking for a solution that allows them to process their invoices and orders, as well as match order confirmations to their purchase orders without any manual intervention. After registering with CIM ONLINE, the company gains access to a user-friendly interface where their booking files are automatically uploaded from the mailbox. The technology behind CIM ONLINE uses Computer Vision to read and interpret the data in these files. This allows the platform to automatically structure and transfer the data in the files at the line and column level to an XML file, which the ERP system itself uses to make its booking.</p>
-                        </div>
+                        <p class="carousel-item-title">Invoice automation</p>
+                        <p class="carousel-item-content">
+                            The story begins when a company looking to streamline its invoice processing and
+                            administration signs up for CIM ONLINE. They are looking for a solution that allows them to
+                            process their invoices and orders, as well as match order confirmations to their purchase
+                            orders without any manual intervention. After registering with CIM ONLINE, the company gains
+                            access to a user-friendly interface where their booking files are automatically uploaded
+                            from the mailbox. The technology behind CIM ONLINE uses Computer Vision to read and
+                            interpret the data in these files. This allows the platform to automatically structure and
+                            transfer the data in the files at the line and column level to an XML file, which the ERP
+                            system itself uses to make its booking.
+                        </p>
                     </div>
                     <div class="carousel-item">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>NLP-powered invoicing</h5>
-                            <p>CIM ONLINE also uses NLP technology to understand and interpret the content of the files. This means that the technology is able to understand and analyze the meaning behind the data in the files, allowing the platform to make bookings without any human operator intervention. Once the file type of CIM ONLINE is established and implemented into the ERP system, bookings are automatically updated and matched with purchase orders*. Invoices are automatically checked and validated, and orders are processed automatically**. This means that the company is able to quickly and efficiently process its accounting and administration without requiring frequent manual intervention. *The ERP system must be able to import XML files **The ERP system must have the purchase order matching order confirmation rules function.</p>
-                        </div>
+                        <p class="carousel-item-title">NLP-powered invoicing</p>
+                        <p class="carousel-item-content">
+                            CIM ONLINE also uses NLP technology to understand and interpret the content of the files.
+                            This means that the technology is able to understand and analyze the meaning behind the data
+                            in the files, allowing the platform to make bookings without any human operator
+                            intervention. Once the file type of CIM ONLINE is established and implemented into the ERP
+                            system, bookings are automatically updated and matched with purchase orders*. Invoices are
+                            automatically checked and validated, and orders are processed automatically**. This means
+                            that the company is able to quickly and efficiently process its accounting and
+                            administration without requiring frequent manual intervention. *The ERP system must be able
+                            to import XML files **The ERP system must have the purchase order matching order
+                            confirmation rules function.</p>
                     </div>
                     <div class="carousel-item">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Summary</h5>
-                            <p>In summary, CIM ONLINE is a platform that adds a new dimension to the way companies manage their document processing and administration. With the integration of advanced technologies such as Computer Vision, Deep Learning, and NLP, CIM ONLINE is able to read and interpret booking files at the line and column level, and perform automatic bookings without manual intervention. Companies using CIM ONLINE can streamline their accounting and administrative processes, saving time and costs, and making their operations more efficient.</p>
-                        </div>
+                        <p class="carousel-item-title">Summary</p>
+                        <p class="carousel-item-content">
+                            In summary, CIM ONLINE is a platform that adds a new dimension to the way companies manage
+                            their document processing and administration. With the integration of advanced technologies
+                            such as Computer Vision, Deep Learning, and NLP, CIM ONLINE is able to read and interpret
+                            booking files at the line and column level, and perform automatic bookings without manual
+                            intervention. Companies using CIM ONLINE can streamline their accounting and administrative
+                            processes, saving time and costs, and making their operations more efficient.
+                        </p>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
 
     <!-- Testerminals -->
 
-    <div class="testerminals-container">
-        <p>Our AI document recognition software, available on our <span>CIM ONLINE</span> platform, uses advanced technologies such as Deep Learning, Computer Vision, and Natural Language Processing (NLP) to read and understand documents. With our software, you can <span>scan, digitize, and process</span> large amounts of documents within seconds.</p>
+    <div class="testerminals-container position-relative">
+        <span class="fa fa-arrow-right"></span>
+        <p>Our AI document recognition software, available on our <span>CIM ONLINE</span> platform, uses advanced
+            technologies such as Deep Learning, Computer Vision, and Natural Language Processing (NLP) to read and
+            understand documents. With our software, you can <span>scan, digitize, and process</span> large amounts of
+            documents within seconds.</p>
+    </div>
+
+    <!-- Slide2 -->
+
+    <div class="aboutapp-slide2-container row">
+        <div class="col-md-6 col-sm-12 aboutapp-slide2-left-container d-justify-center position-relative">
+            <div id="demo2" class="vertical carousel slide" data-bs-ride="carousel">
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <div data-bs-target="#demo2" data-bs-slide-to="0" class="d-justify-center active">
+                        <div></div>
+                        <span class="fa fa-circle"></span>
+                        <p>1</p>
+                    </div>
+                    <div data-bs-target="#demo2" data-bs-slide-to="1" class="d-justify-center">
+                        <div></div>
+                        <span class="fa fa-circle"></span>
+                        <p>2</p>
+                    </div>
+                    <div data-bs-target="#demo2" data-bs-slide-to="2" class="d-justify-center">
+                        <div></div>
+                        <span class="fa fa-circle"></span>
+                        <p>3</p>
+                    </div>
+                    <div data-bs-target="#demo2" data-bs-slide-to="3" class="d-justify-center">
+                        <div></div>
+                        <span class="fa fa-circle"></span>
+                        <p>4</p>
+                    </div>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p class="carousel-item-title">Traditional OCR</p>
+                        <p class="carousel-item-content">
+                            Traditional OCR (Optical Character Recognition) technologies can only recognize plain text, which means they cannot extract context or meaning from the text. AI, Deep Learning, Natural Language Programming, and Computer Vision technologies, on the other hand, are capable of performing more complex tasks such as recognizing images, tables, and graphs, and understanding the context in which the text is used. This allows our AI document recognition software to process and understand not only text but also complete documents, resulting in a more accurate and efficient recognition process.
+                        </p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="carousel-item-title">Reliability of software</p>
+                        <p class="carousel-item-content">
+                            Reliability of our AI document recognition software: Our AI document recognition software is highly reliable and accurate, thanks to the advanced technologies we use. Our software uses machine learning algorithms and is trained with large amounts of data to provide the best results. In addition, our software is regularly updated and improved to ensure that we can always provide the most reliable and accurate results.
+                        </p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="carousel-item-title">Invoice and order processing at line and column level</p>
+                        <p class="carousel-item-content">
+                            A major advantage of our AI document recognition software on the CIM ONLINE platform is that we are able to recognize not only text but also lines and columns in a document. This makes it possible to process invoices and orders quickly and easily, with all relevant information automatically read and processed at the line and column level. This saves a lot of time and costs compared to manual data entry.
+                        </p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="carousel-item-title">Order confirmation processing</p>
+                        <p class="carousel-item-content">
+                            In addition to order processing, we can also process order confirmations with our AI document recognition software on the CIM ONLINE platform. This makes it possible to process order confirmations quickly and efficiently, with information automatically read and validated at the line and column level. This saves a lot of time and avoids errors that can occur with manual processing. Please note that communication with our platform is always in English.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12 text-center aboutapp-slide2-right-container">
+            <img src="./assets/img/aboutapp-slide2.png" class="w-100">
+        </div>
     </div>
 
     <!-- How to use -->

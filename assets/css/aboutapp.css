@@ -290,6 +290,88 @@ body {
     }
 }
 
+.vertical.carousel .carousel-control {
+    bottom: auto;
+    width: 100%;
+    height: 15%;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0) 100%);
+}
+
+.vertical.carousel .carousel-control.right {
+    top: auto;
+    bottom: 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5)));
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.vertical.carousel .carousel-control .glyphicon {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.vertical.carousel .carousel-indicators {
+    bottom: auto;
+    top: 50%;
+    left: auto;
+    right: 10px;
+    width: 14px;
+    margin: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.vertical.carousel .carousel-inner>.item {
+    left: 0;
+    top: 0;
+}
+
+.vertical.carousel .carousel-inner>.item>img {
+    width: 100%;
+}
+
+.vertical.carousel .carousel-inner>.item.next,
+.vertical.carousel .carousel-inner>.item.active.right {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    top: 0;
+}
+
+.vertical.carousel .carousel-inner>.item.prev,
+.vertical.carousel .carousel-inner>.item.active.left {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    top: 0;
+}
+
+.vertical.carousel .carousel-inner>.item.next.left,
+.vertical.carousel .carousel-inner>.item.prev.right,
+.vertical.carousel .carousel-inner>.item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    top: 0;
+}
+
+.vertical.carousel .carousel-inner>.active,
+.vertical.carousel .carousel-inner>.next.left,
+.vertical.carousel .carousel-inner .prev.right {
+    top: 0;
+}
+
+.vertical.carousel .carousel-inner>.next,
+.vertical.carousel .carousel-inner>.active.right {
+    top: 100%;
+    left: 0;
+}
+
+.vertical.carousel .carousel-inner>.prev,
+.vertical.carousel .carousel-inner>.active.left {
+    top: -100%;
+    left: 0;
+}
+
 /* About app slide1 */
 
 .aboutapp-slide1-container {
@@ -308,22 +390,56 @@ body {
     padding-right: 100px;
 }
 
-.carousel-indicators {
+.aboutapp-slide1-container .aboutapp-slide1-right-container {
+    padding-right: 93px;
+}
+
+.aboutapp-slide1-container .carousel-indicators {
     left: 0px !important;
     width: 20px;
+    top: 50% !important;
 }
 
-.carousel-indicators button {
-    background-color: #CECECE !important;
+.aboutapp-slide1-container .carousel-indicators div {
     height: 99px !important;
     width: 1px !important;
+    text-indent: inherit !important;
+    background-color: #CECECE !important;
 }
 
-.carousel-indicators .active {
+.aboutapp-slide1-container .carousel-indicators span {
+    padding-left: 40px;
+    font-size: 5px;
+    color: #64BBC2;
+    display: none;
+}
+
+.aboutapp-slide1-container .carousel-indicators p {
+    padding-left: 9px;
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #64BBC2;
+    margin: 0px;
+    display: none;
+}
+
+.aboutapp-slide1-container .carousel-indicators .active span,
+.aboutapp-slide1-container .carousel-indicators .active p {
+    display: inherit;
+}
+
+.aboutapp-slide1-container .carousel-indicators .active {
     background-color: #64BBC2 !important;
 }
 
-.carousel-item h5 {
+.aboutapp-slide1-container .carousel-item {
+    left: 10px;
+}
+
+.aboutapp-slide1-container .carousel-item .carousel-item-title {
     font-family: 'Inter';
     font-weight: 600;
     font-size: 48px;
@@ -332,6 +448,16 @@ body {
     text-align: center;
     letter-spacing: 0.2px;
     color: #124759;
+    padding-left: 93px;
+}
+
+.aboutapp-slide1-container .carousel-item .carousel-item-content {
+    font-family: 'Acumin Pro';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #124759;
+    padding-left: 93px;
 }
 
 /* Testerminals */
@@ -354,21 +480,172 @@ body {
     color: #fff;
 }
 
+.testerminals-container .fa-arrow-right {
+    font-size: 80px;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 80px;
+    top: 80px;
+}
+
 .testerminals-container span {
     color: #64BBC2;
 }
 
+@media screen and (max-width: 991px) {
+    .testerminals-container {
+        margin-top: 82px;
+        margin-bottom: 82px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 111px;
+        padding-bottom: 68px;
+        padding-left: 34px;
+        padding-right: 34px;
+    }
 
+    .testerminals-container .fa-arrow-right {
+        font-size: 25px;
+        left: 34px;
+        top: 80px;
+    }
+}
 
+/* Slide2 */
 
+.aboutapp-slide2-container {
+    background-color: #124759;
+    width: 100%;
+    margin-right: 0px !important;
+    margin-left: 0px;
+}
 
+.aboutapp-slide2-container .aboutapp-slide2-right-container {
+    padding-top: 176px;
+    padding-right: 124px;
+    padding-bottom: 126px;
+    padding-left: 90px;
+    margin-bottom: 31px;
+}
 
+.aboutapp-slide2-container .aboutapp-slide2-left-container {
+    padding-left: 136px;
+}
 
+.aboutapp-slide2-container .carousel-indicators {
+    right: 0px !important;
+    width: 20px;
+    top: 50% !important;
+}
 
+.aboutapp-slide2-container .carousel-indicators div {
+    height: 99px !important;
+    width: 1px !important;
+    text-indent: inherit !important;
+    background-color: #CECECE !important;
+}
 
+.aboutapp-slide2-container .carousel-indicators span {
+    padding-left: 40px;
+    font-size: 5px;
+    color: #64BBC2;
+    display: none;
+}
 
+.aboutapp-slide2-container .carousel-indicators p {
+    padding-left: 9px;
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #64BBC2;
+    margin: 0px;
+    display: none;
+}
 
+.aboutapp-slide2-container .carousel-indicators .active span,
+.aboutapp-slide2-container .carousel-indicators .active p {
+    display: inherit;
+}
 
+.aboutapp-slide2-container .carousel-indicators .active {
+    background-color: #64BBC2 !important;
+}
+
+.aboutapp-slide2-container .carousel-item {
+    right: 90px;
+}
+
+.aboutapp-slide2-container .carousel-item .carousel-item-title {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding-left: 93px;
+}
+
+.aboutapp-slide2-container .carousel-item .carousel-item-content {
+    font-family: 'Acumin Pro';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding-left: 93px;
+}
+
+@media screen and (max-width: 1300px) {
+    .aboutapp-slide2-container .aboutapp-slide2-left-container {
+        padding-left: 30px;
+    }
+
+    .aboutapp-slide2-container .aboutapp-slide2-right-container {
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .aboutapp-slide2-container .aboutapp-slide2-left-container .carousel-item-title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 0.2px;
+    }
+
+    .aboutapp-slide2-container .aboutapp-slide2-left-container .carousel-item-content {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutapp-slide2-container .aboutapp-slide2-left-container {
+        padding-top: 64px;
+        padding-left: 44px;
+        padding-right: 44px;
+    }
+
+    .aboutapp-slide2-container .carousel-indicators {
+        display: none;
+    }
+
+    .aboutapp-slide2-container .carousel-item {
+        right: 0px;
+    }
+
+    .aboutapp-slide2-container .carousel-item-title,
+    .aboutapp-slide2-container .carousel-item-content {
+        padding-left: 0px !important;
+        text-align: start !important;
+    }
+}
 
 /* How to use */
 
